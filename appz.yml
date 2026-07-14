@@ -4,11 +4,11 @@ app:
     notify: bkoshy@ecloudcontrol.com
     
 build:
-    version: 10.4.5
+    version: 7.0
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: grafana-10.4.5
+    image_template: grafana7.0
     
 deploy:
     context: arjun-cc/DEV
